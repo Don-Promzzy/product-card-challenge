@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* general styles */
+body {
+    font-family: 'Montserrat', serif;
+    font-size: 12px;
+    background-color: hsl(30, 38%, 92%);
+}
+
+/* using the display property and setting the width and height properties to the product card container */
+.prod__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* the product image styling using inherit value */
+.prod__image img {
+    display: block;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+/* styling the product content and setting a background color */
+.prod__content {
+    width: 400px;
+    height: 350px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+}
+
+.prod__title {
+    font-size: 15px;
+    color: hsl(212, 21%, 14%);
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;  
+}
+
+.sub__title {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    max-width: 300px;
+    font-weight: 700;
+    line-height: 1em;
+    margin-bottom: 1rem; 
+}
+
+.prod__descr {
+    font-size: 1rem;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    max-width: 335px;
+    line-height: 1.1em;
+    margin-bottom: 1rem; 
+}
+
+/* adding style to the product price tag */
+.prod__price-tag {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.new__price {
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    font-weight: 700;
+    color:  hsl(158, 36%, 37%);
+}
+
+.old__price {
+    color: hsl(228, 12%, 48%);
+    margin-left: 2rem;
+    text-decoration: line-through;
+}
+
+/* adding style to the product button and cart icon */
+.prod__btn button {
+    font-size: 1rem;
+    width: 100%;
+    height: auto;
+    font-weight: 700;
+    padding: 15px;
+    color:  hsl(0, 0%, 100%);
+    background-color:hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prod__btn button:hover {
+    background-color: hsl(212, 21%, 14%);
+}
+
+.prod__btn img {
+    margin-right: 10px;
+}
+
+/* styling the product footer section */
+.attribution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 60px;
+}
+
+.attribution a {
+    font-size: 10px;
+    text-decoration: none;
+}
+
+/* for desktop */
+@media screen and (min-width: 756px) {
+    .prod__container {
+        flex-direction: row;
+    }
+    
+    .prod__image img {
+        content: url(/images/image-product-desktop.jpg);
+        width: 400px;
+        height: 500px;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .prod__content {
+        width: 400px;
+        height: 500px;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .sub__title {
+        font-size: 40px;
+        margin-bottom: 1.5rem;
+    }
+
+    .prod__descr {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .prod__price,
+    .new__price {
+        font-size: 2rem;
+    }
+
+    .prod__btn button {
+        font-size: 1rem;
+
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin-top: 1rem;
+    }
+}

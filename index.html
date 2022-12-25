@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!-- translates machine code into human-readable text -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- adding a favicon to the webpage -->
+    <meta name="author" content="Promise Imafidon">
+    <meta name="description" content="This is a product card component for Gabrielle Essence Eau De Parfum">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <!-- adding a title to the page's bar -->
+    <title>Don Promzzy | Product card component</title>
+    <!-- adding CSS style sheet to style the webpage -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <!-- product card container -->
+    <main class="prod__container">
+        <!-- adding image to the product card -->
+        <header class="prod__image">
+            <figure>
+                <img src="images/image-product-mobile.jpg" alt="product-image">
+            </figure>
+        </header>
+        <!-- adding title, product name and product description to the product card -->
+        <article class="prod__content">
+                <h2 class="prod__title">P E R F U M E</h2>
+                <h3 class="sub__title">Gabrielle Essence Eau De Parfum</h3>
+                <p class="prod__descr">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+            <!-- adding price tag to the product -->
+            <section class="prod__price-tag">
+                <h2 class="new__price">$149.99</h2>
+                <p class="old__price">$169.99</p>
+            </section>
+            <!-- adding a button and cart icon to the item -->
+            <div class="prod__btn">
+                <button class="add__cart"><img src="images/icon-cart.svg" alt="cart-icon">Add to Cart</button>
+            </div>
+        </article>
+    </main>
+    </body>
+</html>
