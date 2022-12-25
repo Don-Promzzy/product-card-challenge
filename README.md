@@ -29,11 +29,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-design.png)
+![](./design/active-states.jpg)
 
 ### Links
 
-- Solution URL: [Github Code](https://github.com/Don-Promzzy/product-card-challenge)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/product-preview-card-component-sQGIC5GCZE)
 - Live Site URL: [Product-Card-Challenge](https://don-products-card.netlify.app/)
 
 ## My process
