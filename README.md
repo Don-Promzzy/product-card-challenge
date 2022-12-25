@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Code](https://github.com/Don-Promzzy/product-card-challenge)
+- Live Site URL: [Product-Card-Challenge](https://don-products-card.netlify.app/)
 
 ## My process
 
